@@ -1,0 +1,44 @@
+* {
+  margin: 20px;
+  padding: 0;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.contenedor {
+  /* background: red;
+    background: url(../imagen/El\ Pabellón\ Criollo_\ Das\ Nationalgericht\ Venezuela\ -\ 1000Leckerbissen.jpg); */
+}
+#titulo {
+  color: blue;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.imagen {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+
+.texto-encima {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-family: cursive;
+  color: red;
+  text-align: center;
+ 
+}
